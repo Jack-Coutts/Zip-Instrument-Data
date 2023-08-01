@@ -10,8 +10,8 @@ will download a zipped folder containing the three files mentioned above but the
 
 ## How to run the script?
 
-To run this script you should move the 'zipping_instrument_raw_data.py' file to a location on you machine where you can access it easily   
-E.g. Users -> Name -> Documents -> Zipping. In this case the file path would be Users/Name/Documents/Zipping/zipping_instrument_raw_data.py. 
+To run this script you should move the 'zipping_instrument_raw_data.py' file to a location on you machine where you can access it easily E.g. `Users -> Name -> Documents -> Zipping`.
+In this case the file path would be `Users/Name/Documents/Zipping/zipping_instrument_raw_data.py`. 
 
-F
+
 
