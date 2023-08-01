@@ -4,8 +4,9 @@ This repository contains a python script that can be used to zip (compress) all 
 
 ## How to download the script?
 
-You can download this README file, the License and the Python script for zipping files [here](https://github.com/Jack-Coutts/Zip-Instrument-Data/archive/refs/tags/v0.1.0.zip).  
-This will download a zipped folder containing the three files mentioned above, the only that you will need is the Python script 'zipping_instrument_raw_data.py'. 
+You can download this README file, the License and the Python script [here](https://github.com/Jack-Coutts/Zip-Instrument-Data/archive/refs/tags/v0.1.0.zip). This
+will download a zipped folder containing the three files mentioned above but the only that you will need is the Python script 
+[zipping_instrument_raw_data.py](https://github.com/Jack-Coutts/Zip-Instrument-Data/zipping_instrument_raw_data.py). 
 
 ## How to run the script?
 
