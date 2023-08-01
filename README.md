@@ -24,4 +24,4 @@ Here we will use `Users/Name/Documents/data/instrument` as the example target di
 5. When the compression is complete, the command prompt/terminal will display the message `Zipping complete.`.
 
 
-*For this script to run, you must first ensure you have python installed on your machine. If can be downloaded [here](https://www.python.org/downloads/).*
+*For this script to run, you must first ensure you have python installed on your machine. It can be downloaded [here](https://www.python.org/downloads/).*
