@@ -26,9 +26,8 @@ def zip_the_targets(target_directories):
         zipf = zipfile.ZipFile(f'{directory}.zip', 'w', zipfile.ZIP_DEFLATED)
         for root, dirs, files in os.walk(directory):
             for file in files:
-                zipf.write(os.path.join(root, file),
-                           os.path.relpath(os.path.join(root, file),
-                                           os.path.join(directory, '..')))
+                zipf.write(os.path.join(root, file), os.path.relpath(os.path.join(root, file), directory))
+
         zipf.close()
         shutil.rmtree(directory)  # Delete original directory
         elapsed_time = time.time() - start_time  # Calculate elapsed time
