@@ -7,7 +7,7 @@ import time
 
 def get_directory():
     while True:
-        directory = input('Please enter directory path E.g. data/home/instruments/raw_data:')
+        directory = input('Please enter directory path:')
         if os.path.isdir(directory):
             print("File path accepted. Directory compression has started.")
             return directory
@@ -43,6 +43,7 @@ def zip_the_targets(target_directories, delete_original=False):
 
 def main():
     try:
+        print('Program Started (Press Ctrl + C to exit)')
         directory = get_directory()
         target_directories = get_zip_targets(directory)
         zip_the_targets(target_directories, True)
