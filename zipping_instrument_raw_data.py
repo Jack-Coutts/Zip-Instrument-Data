@@ -9,6 +9,7 @@ def get_directory():
     while True:
         directory = input('Please enter directory path E.g. data/home/instruments/raw_data:')
         if os.path.isdir(directory):
+            print("File path accepted. Directory compression has started.")
             return directory
         else:
             print("The path entered is not a valid directory. Please try again.")
