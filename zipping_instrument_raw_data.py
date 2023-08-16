@@ -46,7 +46,7 @@ def main():
         print('Program Started (Press Ctrl + C to exit)')
         directory = get_directory()
         target_directories = get_zip_targets(directory)
-        zip_the_targets(target_directories, True)
+        zip_the_targets(target_directories, False)
         print('Zipping complete.')
 
     except Exception as e:
