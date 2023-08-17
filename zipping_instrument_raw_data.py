@@ -16,11 +16,7 @@ def get_directory():
 
 
 def get_zip_targets(directory_name):
-    target_directories = []
-    for root, dirs, files in os.walk(directory_name, topdown=False):
-        for dir in dirs:
-            if not dir.endswith('.zip'):  # Skip directories ending with .zip
-                target_directories.append(os.path.join(root, dir))
+    target_directories = [os.path.join(directory_name, dir) for dir in os.listdir(directory_name) if os.path.isdir(os.path.join(directory_name, dir))]
     return target_directories
 
 
