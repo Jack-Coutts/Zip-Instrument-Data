@@ -6,7 +6,7 @@ This repository contains a python script that can be used to zip (compress) all 
 
 If you are a member of the Proteomics STP using the VM, you DO NOT need to download the script. It is already on the VM and you can skip to the instructions below.
 
-You can download this README file, the License and the Python script [here](https://github.com/Jack-Coutts/Zip-Instrument-Data/archive/refs/tags/v1.0.0.zip). This
+You can download this README file, the License and the Python script [here](https://github.com/Jack-Coutts/Zip-Instrument-Data/archive/refs/tags/v1.1.0.zip). This
 will download a zipped folder containing the three files mentioned above but the only that you will need is the Python script 
 [zipping_instrument_raw_data.py](https://github.com/Jack-Coutts/Zip-Instrument-Data/blob/main/zipping_instrument_raw_data.py). 
 
