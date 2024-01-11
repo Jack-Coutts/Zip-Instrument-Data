@@ -26,7 +26,7 @@ Assuming the data is in Jack's folder on drive E in a folder called `example_dat
 To run this script you should move the 'zipping_instrument_raw_data.py' file to a location on you machine where you can access it easily E.g. `Users -> Name -> Documents -> Zipping`.
 In this case the file path would be `Users/Name/Documents/Zipping/zipping_instrument_raw_data.py` and will be used as the example below. 
 
-NOTE: On windows computers, backslashes are used instead of forward slashes so the file path might look more like this: 'C:\Users\Name\Documents\Zipping\zipping_instrument_raw_data.py`
+NOTE: On windows computers, backslashes are used instead of forward slashes so the file path might look more like this: `C:\Users\Name\Documents\Zipping\zipping_instrument_raw_data.py`
 
 To run the file you need to know the file path of your target directory and the fle path of the `zipping_instrument_raw_data.py` file.
 
