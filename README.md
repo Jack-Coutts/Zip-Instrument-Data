@@ -1,5 +1,7 @@
 # Zip-Instrument-Data
 
+An imporved version of this CLI application can be found [here](https://github.com/Jack-Coutts/rust_zipper_CLI) and this newer version should be used by members of the proteomics STP.
+
 This repository contains a python script that can be used to zip (compress) all subdirectories within a given directory. The script now gives the option to individually zip all the files in the directory as well. 
 
 ## How to download the script
